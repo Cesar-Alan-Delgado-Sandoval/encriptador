@@ -1,0 +1,231 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: url('../img/fondo.jpg');
+    background-attachment: fixed;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+#global {
+    width: 65%;
+    margin: 0px auto;
+    margin-top: 30px;
+    padding: 25px;
+    background: rgb(1, 26, 11);
+    box-shadow: 0px 0px 2px gray;
+}
+
+#logo {
+    background: rgb(1, 26, 11);
+    font-family: Verdana;
+    font-size: 25px;
+    letter-spacing: 4px;
+    color: white;
+    text-align: center;
+    width: 389PX;
+    height: 80px;
+    margin-bottom: 20PX;
+    line-height: 75PX;
+    float: left;
+    text-transform: uppercase;
+}
+
+
+#posts {
+    width: 60%;
+    float: left;
+    font-family: Arial, Helvetica;
+}
+
+.post {
+    padding: 7px;
+}
+
+h2 {
+    font-family: Arial, Helvetica;
+    font-size: 30px;
+    color: #333;
+}
+
+.post .date {
+    display: block;
+    color: gray;
+    margin-top: 5px;
+}
+
+.post p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 22px;
+    text-align: justify;
+}
+
+.button-more {
+    background: rgb(6, 41, 75);
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    width: 70px;
+    float: auto;
+    margin-bottom: 20px;
+}
+
+#sidebar {
+    font-family: Arial, Helvetica;
+    width: 30%;
+    float: right;
+}
+
+#sidebar h4 {
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 10px;
+    color: #333;
+    background: url("../img/lines.png") repeat-x;
+}
+
+#sidebar h4 span {
+    background: rgb(1, 26, 11);
+    color: white;
+    padding: 5px;
+}
+
+#sidebat p {
+    font-size: 15px;
+    text-align: justify;
+}
+
+textarea {
+    padding: 5px;
+    border-radius: 2px;
+    border: 5px solid darkgreen;
+    width: 80%;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+#textoEncriptado {
+    width: 500px;
+    height: 320px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 27px;
+    line-height: 120%;
+    text-align: center;
+    color: #343A40;
+    border: 5px solid darkgreen;
+}
+
+#textoDesencriptado {
+    width: 240px;
+    height: 300px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 25px;
+    line-height: 120%;
+    text-align: center;
+    color: #343A40;
+}
+
+#reglas {
+    width: 205px;
+    height: 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 150%;
+    color: white;
+    opacity: 0.9;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"],
+form input[type="number"],
+select {
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    width: 50%;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+footer {
+    font-family: Arial, Helvetica;
+    color: white;
+    height: 47px;
+    background: rgba(51, 51, 51, 0.70);
+    margin: 0px auto;
+    width: 65%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 25px;
+    line-height: 47px
+}
+
+.bx-wraper,
+.bx-viewport {
+    height: 250px !important;
+}
+
+.subir {
+    color: white;
+    text-decoration: none;
+    display: block;
+    float: right;
+}
+
+#botonEncriptado {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 5px;
+    gap: 5px;
+    width: 100px;
+    height: 36px;
+    background: #0e305a;
+    border-radius: 15px;
+    color: white;
+    margin-top: 3px;
+}
+
+#botonDesencriptado {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 5px;
+    gap: 5px;
+    width: 100px;
+    height: 36px;
+    background: #D8DFE8;
+    border-radius: 15px;
+    color: black;
+    margin-top: 3px;
+    margin-left: 15px;
+}
+
+#botonCopiar{
+    align-items: center;
+    padding: 5px;
+    gap: 5px;
+    width: 100px;
+    height: 36px;
+    background: #0e305a;
+    border-radius: 15px;
+    color: white;
+    margin-top: 3px;
+    float: right;
+}
