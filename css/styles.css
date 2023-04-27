@@ -229,3 +229,17 @@ footer {
     margin-top: 3px;
     float: right;
 }
+
+@media screen and (max-width:480px) {
+
+    #global, #logo, #content, #posts, #textoEncrp, #reglas, #botonEncriptado, #botonDesencriptado, #sidebar, #about, #botonCopiar, #textoEncriptado, footer, textarea{
+        width: auto;
+        align-items: center;
+        padding: 15px 11px;
+    }
+
+    #botonEncriptado, #botonCopiar, #botonDesencriptado{
+        padding-top: 7px;
+    }
+
+}
