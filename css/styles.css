@@ -238,4 +238,8 @@ footer {
         padding: 15px 11px;
     }
 
+    #botonEncriptado, #botonDesencriptado, #botonCopiar{
+        padding-top: 7px;
+    }
+
 }
