@@ -222,7 +222,7 @@ footer {
     #global, #logo, #content, #posts, #textoEncrp, #reglas, #botonEncriptado, #botonDesencriptado, #sidebar, #about, #botonCopiar, footer, textarea{
         width: auto;
         align-items: center;
-        padding: 10px 8px;
+        padding: 8px 25px;
     }
 
     #botonEncriptado, #botonCopiar, #botonDesencriptado{
