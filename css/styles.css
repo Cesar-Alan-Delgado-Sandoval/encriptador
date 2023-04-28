@@ -219,23 +219,28 @@ footer {
 
 @media screen and (max-width:480px) {
 
-    #global, #logo, #content, #posts, #reglas, #botonEncriptado, #botonDesencriptado, #sidebar, #about, #botonCopiar, footer{
+    #global, #logo, #content, #posts, #reglas, #botonEncriptado, #botonDesencriptado, #botonCopiar, footer{
         width: auto;
         align-items: center;
-        padding: 10px 15px;
     }
 
     #botonEncriptado, #botonCopiar, #botonDesencriptado{
         padding-top: 7px;
     }
 
-    #textoEncriptado, #logo, #textoDesencriptado{
-        width: 200px;
+    #textoEncriptado, #logo, #textoDesencriptado, #about{
+        width: 200px;   
         font-size: 20px;
+        float: inherit;
+        padding: 15px;
+    }
+
+    #sidebar{
+        float: left;
     }
 
     h1{
-        font-size: 30px;
+        font-size: 25px;
     }
 
 
