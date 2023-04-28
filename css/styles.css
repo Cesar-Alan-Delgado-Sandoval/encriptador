@@ -116,7 +116,7 @@ textarea {
 }
 
 #textoEncriptado {
-    width: 500px;
+    width: 350px;
     height: 320px;
     font-family: 'Inter';
     font-style: normal;
@@ -150,19 +150,6 @@ textarea {
     line-height: 150%;
     color: white;
     opacity: 0.9;
-}
-
-form input[type="text"],
-form input[type="password"],
-form input[type="email"],
-form input[type="number"],
-select {
-    padding: 5px;
-    border-radius: 2px;
-    border: 1px solid #ccc;
-    width: 50%;
-    margin-bottom: 10px;
-    margin-top: 5px;
 }
 
 footer {
@@ -232,14 +219,23 @@ footer {
 
 @media screen and (max-width:480px) {
 
-    #global, #logo, #content, #posts, #textoEncrp, #reglas, #botonEncriptado, #botonDesencriptado, #sidebar, #about, #botonCopiar, #textoEncriptado, footer, textarea{
+    #global, #logo, #content, #posts, #textoEncrp, #reglas, #botonEncriptado, #botonDesencriptado, #sidebar, #about, #botonCopiar, footer, textarea{
         width: auto;
         align-items: center;
-        padding: 15px 11px;
+        padding: 10px 8px;
     }
 
     #botonEncriptado, #botonCopiar, #botonDesencriptado{
         padding-top: 7px;
     }
+
+    #textoEncriptado, #logo{
+        width: 240px;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
 
 }
