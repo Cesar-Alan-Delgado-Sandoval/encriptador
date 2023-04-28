@@ -222,7 +222,7 @@ footer {
     #global, #logo, #content, #posts, #reglas, #botonEncriptado, #botonDesencriptado, #sidebar, #about, #botonCopiar, footer{
         width: auto;
         align-items: center;
-        padding: 8px 12px;
+        padding: 10px 15px;
     }
 
     #botonEncriptado, #botonCopiar, #botonDesencriptado{
@@ -230,12 +230,12 @@ footer {
     }
 
     #textoEncriptado, #logo, #textoDesencriptado{
-        width: 220px;
+        width: 200px;
         font-size: 20px;
     }
 
     h1{
-        font-size: 25px;
+        font-size: 30px;
     }
 
 
