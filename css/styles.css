@@ -29,8 +29,8 @@ body {
     letter-spacing: 4px;
     color: white;
     text-align: center;
-    width: 389PX;
-    height: 80px;
+    width: 50PX;
+    height: 45px;
     margin-bottom: 20PX;
     line-height: 75PX;
     float: left;
@@ -87,13 +87,6 @@ h2 {
     float: right;
 }
 
-#sidebar h4 {
-    margin-bottom: 20px;
-    text-align: center;
-    line-height: 10px;
-    color: #333;
-    background: url("../img/lines.png") repeat-x;
-}
 
 #sidebar h4 span {
     background: rgb(1, 26, 11);
@@ -225,14 +218,17 @@ footer {
     }
 
     #botonEncriptado, #botonCopiar, #botonDesencriptado{
-        padding-top: 7px;
+        padding-top: 5px;
     }
 
-    #textoEncriptado, #logo, #textoDesencriptado, #about{
+    #about{
+        margin-top: 15px;
+    }
+
+    #textoEncriptado, #logo, #textoDesencriptado{
         width: 200px;   
         font-size: 20px;
-        float: inherit;
-        padding: 15px;
+        padding: 55px;
     }
 
     #sidebar{
@@ -244,4 +240,15 @@ footer {
     }
 
 
+}
+
+#logo {
+    font-size: 25px;
+    letter-spacing: 4px;
+    text-align: center;
+    width: 20PX;
+    height: 25px;
+    margin-top: 0;
+    margin-bottom: 10PX;
+    line-height: 75PX;
 }
