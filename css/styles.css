@@ -129,7 +129,7 @@ textarea {
 }
 
 #textoDesencriptado {
-    width: 240px;
+    width: 200px;
     height: 300px;
     font-family: 'Inter';
     font-style: normal;
@@ -219,22 +219,23 @@ footer {
 
 @media screen and (max-width:480px) {
 
-    #global, #logo, #content, #posts, #textoEncrp, #reglas, #botonEncriptado, #botonDesencriptado, #sidebar, #about, #botonCopiar, footer, textarea{
+    #global, #logo, #content, #posts, #reglas, #botonEncriptado, #botonDesencriptado, #sidebar, #about, #botonCopiar, footer{
         width: auto;
         align-items: center;
-        padding: 8px 25px;
+        padding: 8px 12px;
     }
 
     #botonEncriptado, #botonCopiar, #botonDesencriptado{
         padding-top: 7px;
     }
 
-    #textoEncriptado, #logo{
-        width: 240px;
+    #textoEncriptado, #logo, #textoDesencriptado{
+        width: 220px;
+        font-size: 20px;
     }
 
     h1{
-        font-size: 30px;
+        font-size: 25px;
     }
 
 
