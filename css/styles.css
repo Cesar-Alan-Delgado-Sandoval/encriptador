@@ -29,8 +29,8 @@ body {
     letter-spacing: 4px;
     color: white;
     text-align: center;
-    width: 50PX;
-    height: 45px;
+    width: 389PX;
+    height: 80px;
     margin-bottom: 20PX;
     line-height: 75PX;
     float: left;
@@ -87,6 +87,13 @@ h2 {
     float: right;
 }
 
+#sidebar h4 {
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 10px;
+    color: #333;
+    background: url("../img/lines.png") repeat-x;
+}
 
 #sidebar h4 span {
     background: rgb(1, 26, 11);
@@ -122,7 +129,7 @@ textarea {
 }
 
 #textoDesencriptado {
-    width: 200px;
+    width: 240px;
     height: 300px;
     font-family: 'Inter';
     font-style: normal;
@@ -212,43 +219,23 @@ footer {
 
 @media screen and (max-width:480px) {
 
-    #global, #logo, #content, #posts, #reglas, #botonEncriptado, #botonDesencriptado, #botonCopiar, footer{
+    #global, #logo, #content, #posts, #textoEncrp, #reglas, #botonEncriptado, #botonDesencriptado, #sidebar, #about, #botonCopiar, footer, textarea{
         width: auto;
         align-items: center;
+        padding: 10px 8px;
     }
 
     #botonEncriptado, #botonCopiar, #botonDesencriptado{
-        padding-top: 5px;
+        padding-top: 7px;
     }
 
-    #about{
-        margin-top: 15px;
-    }
-
-    #textoEncriptado, #logo, #textoDesencriptado{
-        width: 200px;   
-        font-size: 20px;
-        padding: 55px;
-    }
-
-    #sidebar{
-        float: left;
+    #textoEncriptado, #logo{
+        width: 240px;
     }
 
     h1{
-        font-size: 25px;
+        font-size: 30px;
     }
 
 
-}
-
-#logo {
-    font-size: 25px;
-    letter-spacing: 4px;
-    text-align: center;
-    width: 20PX;
-    height: 25px;
-    margin-top: 0;
-    margin-bottom: 10PX;
-    line-height: 75PX;
 }
